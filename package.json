@@ -1,12 +1,17 @@
 {
-  "name": "npmpackage",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "npmpackage-date",
+  "version": "1.0.1",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
-  "keywords": [],
+  "keywords": ["date", "nodejs"],
   "author": "José Alberto ",
+  "bin": {
+    "npmpackage-date": "./main.js"
+  },
   "license": "MIT",
-  "description": "a nodejs package"
+  "homepage": "https://github.com/BetoCas11/dateCMD",
+  "description": "Una utilidad paara manejar fechas en formato timestamp y long time"
 }
