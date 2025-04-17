@@ -1,12 +1,13 @@
 {
-  "name": "npmpackage",
+  "name": "npmpackage-date",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
-  "keywords": [],
+  "keywords": ["date", "nodejs"],
   "author": "José Alberto ",
   "license": "MIT",
-  "description": "a nodejs package"
+  "description": "Una utilidad paara manejar fechas en formato timestamp y long time"
 }
